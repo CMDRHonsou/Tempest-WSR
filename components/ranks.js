@@ -1,6 +1,7 @@
 import styles from './styles';
 
 export const ranks = {
+  'Vice Admiral': 'va',
   General: 'gn',
   Colonel: 'col',
   'Lieutenant Colonel': 'lc',
@@ -16,7 +17,7 @@ export const rankImages = Object.keys(ranks).reduce((acc, rank) => ({
   ...acc,
   [rank]: () => (
     <img
-      src={`https://tempest-blown-with-the-wind.vercel.app/rankBadges/${ranks[rank]}.png`}
+      src={`https://tc.emperorshammer.org/images/report-assets/rankBadges/${ranks[rank]}.png`}
       alt={`Badge icon for ${rank}`}
       style={styles.rankBadge}
     />

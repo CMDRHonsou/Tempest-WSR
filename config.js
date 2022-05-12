@@ -14,11 +14,11 @@ export default {
     width: 512,
   },
   cmdr: {
-    intro: 'From the Desk of Silwar Naiilo',
-    name: 'Silwar Naiilo',
-    title: 'COL Silwar Naiilo',
-    pin: 12630,
-    email: 'ehsilwar@gmail.com',
+    intro: 'From the Desk of Honsou Kessen',
+    name: 'Honsou Kessen',
+    title: 'CPT Honsou',
+    pin: 55973,
+    email: 'mason.051283@gmail.com',
   },
   wc: {
     name: 'Denys Elara',
@@ -26,9 +26,9 @@ export default {
     pin: 21086,
   },
   com: {
-    name: 'Anahorn Dempsey',
-    title: 'HA Anahorn Dempsey',
-    pin: 12945,
+    name: 'Silwar Naiilo',
+    title: 'VA Silwar Naiilo',
+    pin: 12630,
   },
   flights: [{
     name: 'Storm Knights',
@@ -37,10 +37,10 @@ export default {
   }, {
     name: 'Heralds of Maelstrom',
     motto: 'The brightest thunderbolt is elicited from the darkest storm',
-    ship: 31,
+    ship: 32,
   }, {
     name: 'Paladins of Fulmination',
     motto: 'You\'ll see the lightning but will be dead before the thunder',
-    ship: 31,
+    ship: 32,
   }],
 };
