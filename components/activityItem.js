@@ -40,8 +40,8 @@ export default {
     <React.Fragment key="NEW_COMBAT_RATING">
       <dt style={styles.dt}>New Combat Rating:</dt>
       <dd style={styles.dd}>
-        {newRatings.map(({ combatRating }) => (
-          combatRating
+        {newRatings.map(({ rating }) => (
+          rating
         )).join(', ')}
       </dd>
     </React.Fragment>

@@ -9,9 +9,9 @@ export default {
     width: 128,
   },
   squadronBanner: {
-    url: 'https://tc.emperorshammer.org/images/banners/35528tempest.jpeg',
-    height: 384,
-    width: 512,
+    url: 'https://tc.emperorshammer.org/images/banners/63919tempestbanner_2021champions.png',
+    height: 721,
+    width: 1534,
   },
   cmdr: {
     intro: 'From the Desk of Honsou Kessen',
