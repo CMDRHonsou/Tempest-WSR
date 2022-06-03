@@ -14,7 +14,7 @@ export default function Dates({
   return (
     <Card>
       <img
-        src="/tempest-300.png"
+        src={config.squadronPatch.url}
         style={{ float: 'right' }}
         alt="Tempest Squadron logo, featuring a horse rearing in front of a lightning bolt."
         width="135"

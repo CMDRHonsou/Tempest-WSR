@@ -4,7 +4,7 @@ export default {
   squadron: 'Tempest',
   squadronId: '45',
   squadronPatch: {
-    url: 'https://tc.emperorshammer.org/images/patches/35528Tempest%20Squadron%20Patch%202020.png',
+    url: 'https://tc.emperorshammer.org/patch.php?id=45&size=medium',
     height: 128,
     width: 128,
   },
@@ -16,7 +16,7 @@ export default {
   cmdr: {
     intro: 'From the Desk of Honsou Kessen',
     name: 'Honsou Kessen',
-    title: 'CPT Honsou',
+    title: 'LC Honsou',
     pin: 55973,
     email: 'mason.051283@gmail.com',
   },

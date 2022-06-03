@@ -15,10 +15,10 @@ import Footer from '../../components/footer';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 9;
+const reportNumber = 10;
 const startDate = '2021-11-29';
-const endDate = '2022-05-11';
-const submissionDate = '2022-05-12';
+const endDate = '2022-05-15';
+const submissionDate = '2022-05-16';
 
 /*
 const citations = [
@@ -92,97 +92,97 @@ const ACTIVITY = {
   // Honsou
   55973: {
     communication: 'Email, Discord',
-    flightActivity: 'Squadrons PvP',
-    otherActivity: 'Tempest Squadron Admin, Post RtF projects, CCL Final',
+    flightActivity: 'Squadrons PvP/PvE, SP Battles/Missions, BFII PvP/PvE, Star Conflict PvE',
+    otherActivity: 'Tempest Squadron Admin, Two top-secret projects, Multiple TC and external competitions',
     notes: '',
   },
 
-  // Akreseus
+  // Akre
   56005: {
     communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
-    otherActivity: 'Post RtF projects, CCL Final',
-    notes: 'Backdated medals received',
-  },
-
-  // Coldsnacks
-  56017: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
-    otherActivity: 'Trivia, Wordsearch, Crossword',
-    notes: 'Backdated medals received',
-  },
-
-  // TwinJedi
-  56184: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
-    otherActivity: 'CCL Final',
-    notes: 'A warm welcome to Tempest, way to hit the ground running LT!',
+    flightActivity: 'Squadrons PvP/PvE',
+    otherActivity: 'Two top-secret projects, Multiple TC and external competitions',
+    notes: '',
   },
 
   // Kalve
   1968: {
     communication: 'Discord',
-    flightActivity: 'BFII and Star Conflict PvE',
-    otherActivity: 'Various Projects',
+    flightActivity: 'Squadrons PvE, BFII PvE, Star Conflict PvP/PvE',
+    otherActivity: 'Multiple TC competitions, EH based projects, Art/Graphics submissions',
+    notes: 'Congratulations on the Gold Star of the Empire, long overdue!',
+  },
+
+  // Twin
+  56184: {
+    communication: 'Discord',
+    flightActivity: 'Squadrons PvP',
+    otherActivity: 'Multiple TC and external competitions',
     notes: '',
   },
 
-  // EchoVII
-  55922: {
+  // Snacks
+  56017: {
+    communication: 'Discord',
+    flightActivity: 'Squadrons PvP/PvE, SP Missions/Battles, BFII PvP/PvE, Star Conflict PvE',
+    otherActivity: 'Multiple TC and external competitions, Flight leader activities',
+    notes: '',
+  },
+
+  // Kertron
+  56309: {
     communication: 'Discord',
     flightActivity: 'none',
     otherActivty: 'none',
-    notes: '',
+    notes: 'Welcome to Tempest Squadron',
   },
 
-  // Dempsey
+  // Demps
   12945: {
     communication: 'Discord',
-    flightActivity: 'none',
-    otherActivity: 'none',
+    flightActivity: 'SP Battles/Missions, Star Conflict PvP/PvE',
+    otherActivity: 'Multiple TC and external competitions',
     notes: '',
   },
 
-  // Richlet
+  // Rich
   4607: {
     communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
-    otherActivity: 'none',
+    flightActivity: 'Squadrons PvP/PvE',
+    otherActivity: 'Multiple TC and external competitions',
     notes: '',
   },
 
-  // Morgoth
+  // Morg
   55942: {
     communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
-    otherActivity: 'Trivia, CCL Final',
-    notes: 'Backdated medals received',
+    flightActivity: 'Squadrons PvP/PvE, SP Battles/Missions',
+    otherActivity: 'Multiple TC and external competitions, Flight leader and SQXO activities',
+    notes: '',
   },
 
   // Phalk
   6874: {
     communication: 'Discord',
-    flightActivity: 'SP flying.',
-    otherActivity: 'SP bug report, Trivia',
-    notes: 'Congratulations on not one, TWO Gold Stars of the Empire! (better late than never)',
+    flightActivity: 'SP Battles/Missions.',
+    otherActivity: 'Multiple TC and external competitions',
+    notes: '',
   },
 
-  // Gisornator
-  56116: {
+  // Capukki
+  56310: {
     communication: 'Discord',
     flightActivity: 'none',
     otherActivity: 'none',
-    notes: 'On Leave, Backdated medals received',
+    notes: 'Welcome to Tempest Squadron',
   },
 
-  // Hawksniper
-  56160: {
-    communication: 'none',
-    flightActivity: 'none',
-    otherActivity: 'none',
-    notes: 'Backdated medal received',
+  // Newt
+  56197: {
+    communication: 'Discord, Email',
+    flightActivity: 'Squadrons PvP/PvE, Star Conflict PvE',
+    otherActivity: 'Multiple TC and external competitions, Numerous artwork/graphics submissions, heavy involvement in the AirLock Podcast and TC D&D campaign',
+    notes: '',
   },
 };
 
@@ -216,25 +216,22 @@ export default function Report({ activityData }) {
       <Intro showUniform>
         <p>
           <em>
-            Life in the Fleet: Cross training: Part Three.
-            
-            TC Officer: CMDR/CPT Honsou/Tempest/Wing X/ISDII Challenge
-            Assignment: Assault Frigate Mk.I Illustrious.
-            Role: Squadron Maintenance.
-            Several weeks had passed and Trisk had arranged for Honsou to take the TIE Corps examination for Hangar and Maintenance Crew. Stunty had taken his opportunity to get back at Honsou and set about an elaborate sabotage of the examination. His plan, to have one of the loader droids malfunction, causing significant damage to the craft. Whilst it may injure Honsou, it would be worth the exam failure and charges wrought for damages to the craft. What Stunty hadn’t banked on was that Honsou is a member of the Dark Brotherhood and a competent force user. So, when the loader droid did malfunction Honsou was able to react with inhuman speed and reflexes and roll to the side before he was crushed against the TIE craft’s hull by the malfunctioning tracked droid. Reaching out with his right hand Honsou was able to hold the droid in a vice like grip, preventing it from impacting the hull. With his left hand Honsou was able to reach out with the force and deactivate the droid before any further chaos ensued. With the loader droid disabled, Honsou worked to complete the allotted tasks set before once again calling on his powers to elevate the Solar panel held by the loader droid into its correct position.
-            Stunty had witnessed the show along with the rest of the hangar crew and could not hide his guilt from Honsou’s incandescent rage upon completion of the exam. The Ugnaught pleaded his innocence to both Honsou and Trisk. Honsou looked to Trisk who frowned deeply then nodded once. Immediately there was a crack from Honsou’s sidearm followed by what could only be described as the squeal of an infant nerf, then, silence. Stunty lay dead and Honsou holstered his weapon and departed for his quarters.
-            The following rotation Deck Officer Trisk greeted Honsou, again with a sharp salute, handed him a datacard confirming his qualification and thanked Honsou for his time aboard the Illustrious. Honsou returned the salute before he and the rest of Tempest Squadron headed to their craft for the return journey to the ISDII Challenge. Honsou needed a bottle of Chalquila after this month…
+          The “action stations” klaxon sounded in all rooms of the ISDII Challenge. Honsou immediately stopped his Teräs Käsi training regimen, the sparing droid did not… “oof… Dank farrick!” Honsou exclaimed as the droid struck low to his midriff. “Training END.” he stated, slightly winded, and the droid returned to it’s neutral posture. Honsou recovered his towel and water from the bench at the side of the dojo and began to wipe the sweat from his brow as he departed and made for the commander’s briefing room. He was somewhat grateful that no-one had witnessed that faux pas. He would never live it down if certain crew members had seen…
+Almost halfway to the briefing room it became apparent that the Challenge and the fleet was not in any danger. The familiar sounds of battle or even the cries of battle readiness were not echoing through the halls of the Star Destroyer. “Another kriffing drill.” Honsou muttered. He paused a moment taking in his surroundings and reaching out with his feelings. Yes, the general feeling on board was calm. None of the rank and file were experiencing the expected anxiety or undercurrent of fear that accompanied the trepidation before an engagement.
+Honsou was not the last commander to arrive in the briefing room. Apparently, the alarm had quite literally caught Major Graf Djinn with his pants down… He arrived a few moments later, a clearly flustered stare of this had better be worth it fixed upon the Commodore. Vice Admiral Silwar Naiilo, as always, began to speak with his back to the assembled commanders of Wing X.
+…Several standard hours later… Honsou and the rest of Tempest Squadron had completed their assigned duties, completing their part in the flight drills that the Vice Admiral had ordered. They headed for the Tempest Squadron quarters to remove their flight gear. Honsou noted Captain Morgoth exchanging words with newly promoted Captain Colo Delste. Probably complaining about the Spectre Advanced Missile Boats and their shortcomings, again. Honsou realised that he really should continue his proposal for the craft change for flight’s two and three. Afterall, they had the means, following Tusorix. Firebird Squadron had also just returned and General Stryker could be heard, quite clearly, expressing his disdain for the “Creative yet wholly against all Imperial protocol, comm chatter” that had been exchanged between Jaxx and Travis.
+As Honsou returned to his personal quarters to complete his monthly report, his mind again followed the Tusorix thread and back, as always to that package for Grand Admiral Rapier. Why had the Imperial Sovereign Protector deemed it important enough to send Tempest Squadron on an errand? Thunder Squadron the newly nicknamed “Admiralzon Delivery Service” (someone found out about CPT LegionX’s pre-enlistment occupation) would have been more fitting. However, joking aside SA Kamjin had chosen Tempest and Honsou for a reason and it was really starting to gnaw at Honsou like a womp rat on a cadaver. “I may need to visit the ‘Drunken Admiral’ soon.” Honsou said to himself, almost absently.
           </em>
         </p>
 
         <p>
-          A huge welcome to LT TwinJedi, taking up the Tempest 1-4 position. Already promoted from SL, INPR complete, several LoC's and helped out the Temptations in their CCL Final.
+          A huge welcome to SL CapukkiOne and SL Kertron Seven, taking up the Tempest 2-2 and 3-3 positions respectively.
         </p>
 
-        As we welcome LT TwinJedi, we salute a veteran of the TC, MAJ Hermann as he departs for the Reserves aboard FRG-Phoenix. Thank you Sir!
+        As we welcome CapukkiOne and Kertron Seven, we salute EchoVII and Gisornator as they depart for the Reserves aboard FRG-Phoenix. Thank you for everything you have done for Tempest!
 
         <p>
-          The Challenge Championship League: It is finally complete. Huge congratulations to Snax Attax on claiming 1st place, with the Temptations settling for 2nd.
+          Tempest Squadron are once again TCiB Champions! That's the last three in a row! Well done everyone! 
         </p>
 
       </Intro>
@@ -261,9 +258,11 @@ export default function Report({ activityData }) {
       */}
 
       <Closing>
-        I hope everyone has had a mostly relaxed November. As we move through the holiday season I would like to wish everyone Happy Holidays in whichever way you celebrate. 
-        Congratulations on everything you have achieved this year Tempest Squadron! 1st place TCiB, 1st place IS:III, 1st place RtF and 2nd place ReMob!
-        We Are The Storm!
+        As we return to a standard monthly reporting format I would like to take the time to thank everyone involved in the Challenge Newsletter during the early months of the year. 
+        Congratulations on everything you have achieved so far this year Tempest Squadron! 1st place TCiB with the ISDII Challenge also coming first and a hard fought close 2nd place in IS4.
+        Lastly but by no means least, I extend massive congratulations to newly appointed WarCOM, VA Marenta and the ISDII Warrior for a well deserved first victory in the simulators!
+
+        This is LC Honsou, CMDR of Tempest Squadron, singing off. "We Are The Storm!"
       </Closing>
 
       <Footer />
