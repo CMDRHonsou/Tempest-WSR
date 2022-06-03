@@ -19,7 +19,7 @@ export default function Intro({ children, showUniform = true }) {
         >
           <img
             style={{ width: '100%', maxWidth: '190px', float: 'right' }}
-            src="https://tc.emperorshammer.org/uniform.php?uid=1789"
+            src="https://tc.emperorshammer.org/uniform.php?uid=1886"
             alt={`The uniform of ${config.cmdr.name}, #${config.cmdr.pin}`}
           />
         </Link>
