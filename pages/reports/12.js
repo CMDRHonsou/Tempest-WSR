@@ -18,7 +18,7 @@ import loadActivityData from '../../src/loadSquadronActivityData';
 const reportNumber = 12;
 const startDate = '2022-06-01';
 const endDate = '2022-06-30';
-const submissionDate = '2022-07-14';
+const submissionDate = '2022-07-23';
 
 /*
 const citations = [
@@ -229,21 +229,12 @@ export default function Report({ activityData }) {
       <Intro showUniform>
         <p>
           <em>
-          "On-board the 'Drunken Admiral' - SoroSuub Personal Luxury Yacht 3000 - Property of SA Kamjin Lap'lamiz"
+          "Moving Day-Something Fowl: A (not quite) Honsou Story. Pt 1"
           <p>
-"This is some very good Chalquila Kamjin" Honsou remarked. His tastebuds numbed by the semi-caustic fluid. The aftertaste stronger, almost smokey.
-"Yes, I keep a special aged reserve for guests." The Sovereign Protector said through a sly grin. Honsou thought for a moment that he may have made a mistake coming here to ask such intrusive questions but he needed answers.
-"Look Honsou, I know why you're here and I can tell you that I picked Tempest because I needed a Deep Strike squadron who could operate against fortified enemies with no support craft being available. There is more at stake here than you know or need to know." Kamjin sat back in the high backed padded chair and closed his eyes... Honsou knew he was reinforcing his mental defences to ensure Honsou didn't try anything subtle with the force.
-"Yes Kamjin... that's my Squad... the best the TIE Corps has to offer... but what was so important to take the best away from the main fight?" The impatience must have been obvious as the reply came quickly with a hint of sarcasm.
-"When you have to get a secret message to the Fleet Commander in a combat zone you send you best...you don't send the Admiralzon Delivery service." Honsou's ire rose at that...
-"Fine... what the hell did you find on that backwater Mav?" Honsou said with a harsher tone. That made Kamjin smile.
-"You mean, 'who' found 'Me'..." His smile became wide and Honsou swore he saw the faintest of antagonistic winks.
-"With all due respect sir I nearly lost two damn good pilots in that shitshow!" Honsou growled "Two of my best are in the reserves now due to injury..."
-"Nearly is not fully. I'll send a bottle of challquila for their speedy recovery." Kamjin replied calmly,  casually dismissing the slight. Honsou snapped, he stood abruptly causing the Sovereign Protector to raise a questioning eyebrow. Curious as to why Honsou would be getting so emotional about this subject. 
-"Alright! A challenge... one Sith to another." Honsou said, his voice booming in the confines of the luxury yacht. "I will send you the details of my challenge once I have cleared it with my COM." Honsou's fists balled at his sides.
-"I look forward to it Squadron Commander, and I will convene with the Grand Admiral himself to ascertain what, if anything I can tell you IF you should be victorious." Kamjin's tone was as hard as beskar and oozed the confidence of his station. He had chosen his words carefully to remind Honsou of his lowly station by comparison.
+          The atmosphere in the main hangar of the ISDII Challenge was electric with activity. The day had finally come for the Infiltration Wing to claim their place aboard the newly assigned MC-40 that had arrived to join with Battle Group III. Her sleek, smooth, almost bulbous hull stood out like a sore thumb against the strong angular lines of the Imperial vessels of the fleet. All of the fighters and support craft of Firebird and Eagle Squadrons had to be moved over to the MC-40 along with the pilots and all of their belongings and equipment.
+The transports and shuttles had already shifted the heavy gear and the crew of the MC-40 along with the assigned droids were hard at work putting everything in place for the arrival of Firebird and Eagle Squadrons. Without warning a loud Bawk sound erupted through the hangar bay. The cacophony stopped immediately. A sound like a robotic rendition of an enormous Endorian Brahma, also known as a tip-yip in Ewokese, a species of fowl that originated in the forests of Endor. These domesticated animals were kept by the Ewoks primarily as a source of food, and their meat was considered delicious. However, Captain Travis of Firebird Squadron had developed a fondness for these creatures and now it seems had requested his personal, jet black, R2 unit use the Brahma’s cry as some kind of replacement for it's more traditional beeps and boops. "BAWK" the droid announced it's presence again to the hangar's occupants. Several confused engineers and deck officers started looking around, understandably disturbed by the sound that was seemingly getting closer and louder. “Now don’t y’all stop workin’ on account of me and F0-H07n (fo-horn) here. Get back to it.” It was Travis alright, there was no mistaking that accent. Honsou smiled to himself, Travis had a way with the crew members, a charismatic yet dangerous war-dog. Honsou respected that. A thought occurred to him and his smile uncharacteristically became wide and he chuckled to himself as he continued his project work for the MC-40s little hangar issue, which was also unironically the actual issue. 
 </p>  
-          As Honsou returned to his personal quarters, back on the ISDII Challenge. He sat down to complete his monthly report. He had gone in search of answers, and returned with even more questions... And some serious training to do.
+          to be continued...
           </em>
         </p>
 
@@ -254,6 +245,7 @@ export default function Report({ activityData }) {
         <p>
           Tempest Squadron have completed all ReMob tasks laid out for the second year running. Again with 100% participation from the squadron Well done everyone!
           Special callout to LT TwinJedi for not giving up when their PC motherboard died. Completing a fiction entry, on a work laptop, as their contribution!
+          Also further congratulations to all Squadrons that completed ReMob tasks, it was a super tough one this year.
         </p>
 
       </Intro>
@@ -280,7 +272,7 @@ export default function Report({ activityData }) {
       */}
 
       <Closing>
-        A later than usual monthly report but I was focusing on ReMob and wanted to congratulate every single member of the squadron as soon as it was complete.
+        A later than usual monthly report but I was focusing on ReMob and wanted to congratulate every single member of the squadron as soon as it was complete. Also to show off our beautiful new Tempest-Class TIE/ca's. (many thanks to Kalve for the artwork)
         <p>
         This is LC Honsou, CMDR of Tempest Squadron, singing off. "We Are The Storm!"
         </p>

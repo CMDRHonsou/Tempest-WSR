@@ -36,11 +36,11 @@ export default {
     ship: 5,
   }, {
     name: 'Heralds of Maelstrom',
-    motto: 'The brightest thunderbolt is elicited from the darkest storm',
-    ship: 32,
+    motto: 'Hell is empty, and all the devils are here',
+    ship: 249,
   }, {
     name: 'Paladins of Fulmination',
     motto: 'You\'ll see the lightning but will be dead before the thunder',
-    ship: 32,
+    ship: 249,
   }],
 };
