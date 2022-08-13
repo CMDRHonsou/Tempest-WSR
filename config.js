@@ -21,8 +21,8 @@ export default {
     email: 'mason.051283@gmail.com',
   },
   wc: {
-    name: 'Denys Elara',
-    title: 'LC Denys Elara',
+    name: 'Allen "Ace" Chanti',
+    title: 'GN Allen "Ace" Chanti',
     pin: 21086,
   },
   com: {
